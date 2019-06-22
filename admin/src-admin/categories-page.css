@@ -1,0 +1,69 @@
+section article {
+    width: 90%;
+    height: 90px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 17px;
+}
+
+.color {
+    width: 30%;
+    height: 100%;
+    background-image: url(../img-admin/foni-cub.jpg);
+
+    float: left;
+}
+
+.white {
+    width: 70%;
+    height: 100%;
+    background: white;
+    float: left;
+
+}
+
+a {
+    color: black;
+    font-family: nino-mtavruli;
+    display: block;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+p {
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: beka;
+    src: url("../../assets/fonts/beka.ttf");
+}
+
+@font-face {
+    font-family: nino-mtavruli;
+    src: url('../../assets/fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1200px) {}

@@ -1,0 +1,137 @@
+.clear-box {
+    clear: both;
+    height: 0px;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: nino-mtavruli;
+    margin: 0px 0px 30px 30px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    padding: 15px;
+    background-image: url(../img-admin/foni.jpg);
+}
+
+header img {
+    height: 70px;
+}
+
+main {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+aside {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding-top: 30px;
+
+
+}
+
+
+
+/*damalva gamochena*/
+#saidebar {
+    position: fixed;
+    width: 16%;
+    height: 100%;
+    left: -16%;
+    background-image: url(../img-admin/foni.jpg);
+    top: 101px;
+}
+
+#saidebar li {
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 110%;
+    top: 15px;
+}
+
+.toggle-btn span {
+    display: block;
+    background-color: #1c1c42;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#saidebar.active {
+    left: 0px;
+}
+
+/* } mtavrdeba */
+
+#saidebar li a {
+    color: white;
+    font-family: nino-mtavruli;
+    display: block;
+    text-decoration: none;
+}
+
+#saidebar li:hover {
+    background: #bb0202;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: beka;
+    src: url("../../assets/fonts/beka.ttf");
+}
+
+@font-face {
+    font-family: nino-mtavruli;
+    src: url('../../assets/fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1200px) {}

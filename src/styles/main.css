@@ -1,0 +1,290 @@
+.clear-box {
+    clear: both;
+    height: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+header {
+    width: 100%;
+    z-index: 6;
+    position: fixed;
+
+}
+
+header a {
+    color: white;
+    font-family: nino-mtavruli;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none !important;
+}
+
+
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+header nav ul li:first-child {
+    margin-top: 7px;
+    margin-right: 23px;
+
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+
+
+.dropdown-item:hover {
+    background: rgba(139, 28, 64, 0.72);
+}
+
+.header-social-icon {
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: -5px;
+    float: left;
+    /* height: 38px;
+    background:#f9a0a052;  
+    border-radius: 10px; */
+}
+
+.language-icons {
+    float: right;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.header-top {
+    height: 0px;
+    background-color: rgba(139, 28, 64, 0.72);
+    transition: .3s;
+}
+
+.header-bottom {
+    position: absolute;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.show1 {
+    height: 38px;
+    transition: .3s;
+}
+
+.darken {
+    background-color: rgba(139, 28, 64, 1);
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.btn-secondary {
+    background: none !important;
+    border-color: none !important;
+    border: none !important;
+}
+
+.btn-secondary:hover {
+    border-color: none !important;
+    border: none !important;
+}
+
+.btn-group>.btn:not(:first-child),
+.btn-group>.btn-group:not(:first-child) {
+    margin-left: -17px;
+}
+
+.dropdown-toggle-split {
+    font-size: 20px;
+}
+
+
+.icon-bar2 {
+    display: block;
+    width: 46px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: white;
+    margin-bottom: 6px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.form-control {
+    background: none !important;
+}
+
+.btn-outline-success {
+    border-color: #ced4da !important;
+    color: #ced4da !important;
+}
+
+.btn-outline-success:hover {
+    background: #b97070 !important;
+
+}
+
+.btn-secondary,
+.btn:focus {
+    box-shadow: none !important;
+
+}
+
+.header-btn-new {
+    padding-left: 0px;
+}
+
+.icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ced4da;
+    margin-top: 4px;
+    margin-bottom: 2px;
+
+}
+
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+    border-color: rgba(139, 28, 64, 0.72);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background: rgba(139, 28, 64, 1);*/
+}
+
+.weather {
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgba(139, 28, 64, 1);
+    padding-top: 10px;
+
+}
+
+.weather p {
+    text-align: center;
+    font-family: nino-mtavruli;
+    margin-bottom: 7px;
+}
+
+.weather a:hover>.weather-widget {
+    text-decoration: none;
+    transition: all 0.4s;
+    display: block;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+footer img {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.social-cirkle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.social-icon {
+    color: rgba(139, 28, 64, 1);
+    padding: 16px;
+    font-size: 20px;
+}
+
+.weather-widget {
+    display: none;
+}
+
+
+
+@font-face {
+    font-family: beka;
+    src: url("../../assets/fonts/beka.ttf");
+}
+
+@font-face {
+    font-family: nino-mtavruli;
+    src: url('../../assets/fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+@media (max-width: 576px) {
+    .dropdown-item {
+        font-size: 12px !important;
+        padding-left: 5px !important;
+    }
+
+    .btn-group>.btn:not(:first-child),
+    .btn-group>.btn-group:not(:first-child) {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        margin: 0px !important;
+    }
+
+    .navbar-collapse {
+        background: rgba(139, 28, 64, 0.72);
+
+    }
+
+    .nav-link {
+        padding-left: 13px !important;
+    }
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .nav-item {
+        margin-left: 12px;
+
+    }
+
+    .btn-group>.btn:not(:first-child),
+    .btn-group>.btn-group:not(:first-child) {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+
+
+
+
+@media (min-width: 1200px) {}

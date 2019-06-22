@@ -1,0 +1,19 @@
+
+.form-control {
+    width: 90% !important;}
+
+body {
+    background-image: url("../../assets/img/global/admin-bg.png");  
+    padding-top: 30px;
+}
+.admin-authorization {
+    position: relative;
+    animation-name: avt;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+@keyframes avt{
+    0%{ top:-50px}
+    100% {top:30px;}
+}
+

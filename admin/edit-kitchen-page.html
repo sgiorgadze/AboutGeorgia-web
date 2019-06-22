@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>admin-panel</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="src-admin/edit-kitchen-page.css">
+  <script type="text/javascript">
+    function togglemenu() {
+      document.getElementById('saidebar').classList.toggle('active');
+      // var sidebarElement = document.getElementById('saidebar');
+      // var _classlist = sidebarElement.classList;
+      // _classlist.toggle('active');
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <img src="../assets/img/global/logo.png">
+    </div>
+  </header>
+  <div class="container-fluid">
+    <main>
+      <div class="row">
+        <div class="col-3">
+          <aside>
+            <div id="saidebar" onclick="togglemenu()">
+              <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul>
+                <li><a href="home-page.html">მთავარი</a> </li>
+                <li><a href="categories-page.html">კატეგორიები</a> </li>
+                <li> <a href="#">პარამეტრები</a> </li>
+              </ul>
+            </div>
+        </div>
+        </aside>
+        <div class="col-9">
+          <section>
+            <h1>რედაქტირება</h1>
+            <form>
+              <h3>აირჩიეთ კატეგორია</h3>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>აირჩიეთ...</option>
+                <option value="1">ზღვის კურორტები</option>
+                <option value="2">მთის კურორტები</option>
+                <option value="4">ეკლესია მონასტრები</option>
+                <option value="4">ნაკრძალები</option>
+              </select>
+
+              <h3>აირჩიეთ რეგიონი</h3>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>აირჩიეთ...</option>
+                <option value="1">იმერეთი</option>
+                <option value="2">სამეგრელო</option>
+              </select>
+              <div class="container">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#menu1">ქართული</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">ინგლისური</a>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+
+                  <div id="menu1" class="container tab-pane active"><br>
+                    <h3>შეიყვანეთ დასახელება</h3>
+                    <input type="text" class="form-control">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="აღწერა"></textarea>
+                  </div>
+
+
+                  <div id="menu2" class="container tab-pane fade"><br>
+                    <h3>შეიყვანეთ დასახელება</h3>
+                    <input type="text" class="form-control">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="description"></textarea><br>
+                  </div>
+
+                  <label>ატვირთე ფოტო</label><br>
+                  <input type="file" name="img"><br><br>
+                  <input type="submit" name="" value="რედაქტირება">
+                </div>
+              </div>
+
+            </form>
+
+
+
+
+
+          </section>
+          <div class="clear-box"></div>
+        </div>
+      </div>
+  </div>
+  <div class="clear-box"></div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

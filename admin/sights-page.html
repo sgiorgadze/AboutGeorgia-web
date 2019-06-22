@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>admin-panel</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="src-admin/home-page.css">
+  <link rel="stylesheet" href="src-admin/sights-page.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <script type="text/javascript">
+    function togglemenu() {
+      document.getElementById('saidebar').classList.toggle('active');
+      // var sidebarElement = document.getElementById('saidebar');
+      // var _classlist = sidebarElement.classList;
+      // _classlist.toggle('active');
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <img src="../assets/img/global/logo.png">
+    </div>
+  </header>
+  <div class="container-fluid">
+    <main>
+      <div class="row">
+        <div class="col-3">
+          <aside>
+            <div id="saidebar" onclick="togglemenu()">
+              <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul>
+                <li><a href="home-page.html">მთავარი</a> </li>
+                <li><a href="categories-page.html">კატეგორიები</a> </li>
+                <li> <a href="#">პარამეტრები</a> </li>
+              </ul>
+            </div>
+
+          </aside>
+        </div>
+
+
+        <div class="col-9">
+          <section>
+            <h1>ღირსშესანიშნაობები</h1>
+            <div class="row">
+              <div class="categories-scroll">
+                <div class="row">
+                  <div class="col-4">
+                    <article>
+                      <div class="color"></div>
+                      <div class="white">
+                        <p><a href="#">ზღვის კურორტები</a></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                          <a href="#"> <i class="fas fa-trash-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                          aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+                                <button type="button" class="btn  btn-secondary">არა</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-4">
+                    <article>
+                      <div class="color"></div>
+                      <div class="white">
+                        <p><a href="#">მთის კურორტები</a></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                          <a href="#"> <i class="fas fa-trash-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                          aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+                                <button type="button" class="btn  btn-secondary">არა</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-4">
+                    <article>
+                      <div class="color"></div>
+                      <div class="white">
+                        <p><a href="#">ეკლესია-მონასტრები</a></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                          <a href="#"> <i class="fas fa-trash-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                          aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+                                <button type="button" class="btn  btn-secondary">არა</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-4">
+                    <article>
+                      <div class="color"></div>
+                      <div class="white">
+                        <p><a href="#">ნაკრძალები</a></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                          <a href="#"> <i class="fas fa-trash-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                          aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+                                <button type="button" class="btn  btn-secondary">არა</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-4">
+                    <article>
+                      <div class="color"></div>
+                      <div class="white">
+                        <p><a href="#">კატეგორიის დამატება</a></p>
+                        <a href="#"> <i class="fas fa-plus"></i></a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-4"></div>
+                </div>
+              </div>
+
+              <!-- tool box-->
+              <div class="tool-box">
+                <nav class="navbar navbar-light ">
+                  <a href="add-page.html"> <i class="fas fa-plus icon-size" style="margin:10px;"></i></a>
+                  <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </nav>
+
+                <div class="information">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">კატეგორია</th>
+                        <th scope="col">დასახელება</th>
+                        <th scope="col">რედაქტირება/წაშლა</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>ზღვის კურორტები</td>
+                        <td>ბათუმი</td>
+                        <td><a href="edit-kitchen-page.html"> <i class="fas fa-pencil-alt"
+                              style="margin-right:10px;"></i></a>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                  <a href="#"> <i class="fas fa-trash-alt"></i></a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+                        <button type="button" class="btn  btn-secondary">არა</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </td>
+                </tr>
+                <!--modal end-->
+                <tr>
+                  <th scope="row">2</th>
+                  <td>ნაკრძალები</td>
+                  <td>ლაგოდეხის ნაკრძალი</td>
+                  <td><a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+                    <a href="#"> <i class="fas fa-trash-alt"></i></a>
+
+                  </td>
+                </tr>
+
+                </tbody>
+                </table>
+              </div>
+
+            </div>
+
+            <div class="clear-box"></div>
+          </section>
+        </div>
+      </div>
+  </div>
+  <div class="clear-box"></div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

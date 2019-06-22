@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Georgia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/common/kitchen-page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div id="header-top" class="header-top show">
+                <div class="container">
+                    <div class="header-social-icon"><a href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a> </div>
+                    <div class="header-social-icon"><a href="https://www.instagram.com/"><i
+                                class="fab fa-instagram"></i></a> </div>
+                    <div class="header-social-icon"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div class="language-icons">
+                        <a href="#">
+                            <img src="./assets/img/language-icons/ru.png" alt="">
+                        </a>
+                    </div>
+
+
+                    <div class="language-icons">
+                        <a href="#"><img src="./assets/img/language-icons/en.png" alt=""></a>
+
+                    </div>
+                    <div class="language-icons">
+                        <a href="#">
+                            <img src="./assets/img/language-icons/ge.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="header-bottom" class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"><img src="./assets/img/global/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar2"></span>
+                            <span class="icon-bar2"></span>
+                            <span class="icon-bar2"></span>
+                            <span class="icon-bar2"></span>
+
+                        </button>
+
+
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">მთავარი</a>
+                                </li>
+                                <li class="nav-item">
+
+                                    <div class="btn-group">
+                                        <button class="btn header-btn-new" type="button">
+                                            <a class="nav-link" href="kitchen-page.html">სამზარეულო</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="kitchen-page.html">ცივი კერძები</a>
+                                            <a class="dropdown-item" href="kitchen-page.html">ცხელი კერძები</a>
+                                            <a class="dropdown-item" href="kitchen-page.html">სასმელები</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <div class="btn-group">
+                                        <button class="btn header-btn-new" type="button">
+                                            <a class="nav-link" href="sights-page.html">ღირსშესანიშნაობები</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn btn-sm  btn-secondary dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="sights-page.html">ეკლესია-მონასტრები</a>
+                                            <a class="dropdown-item" href="sights-page.html">მთის კურორტები</a>
+                                            <a class=" dropdown-item" href="sights-page.html">ზღვის კურორტები</a>
+                                            <a class="dropdown-item" href="sights-page.html">ნაკრძალები</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+            <div class="clear-box"></div>
+        </header>
+
+        <div class="slider">
+            <img src="./assets/img/food/foni.jpg" alt="">
+
+        </div>
+        <div class="container">
+            <div class="hidden">
+                <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    ძებნა
+                </button>
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <form>
+
+
+                            <h3>აირჩიეთ რეგიონი</h3>
+                            <input class="custom-select" placeholder="რეგიონი ან ქალაქი..." list="browsers"
+                                name="browser">
+                            <datalist id="browsers">
+                                <option value="იმერეთი">
+                                <option value="სამეგრელო">
+                            </datalist>
+
+
+                            <h3>აირჩიეთ კატეგორია</h3>
+                            <input class="custom-select" placeholder="კატეგორია..." list="categories" name="browser">
+                            <datalist id="categories">
+                                <option value="ცივი კერძები">
+                                <option value="ცხელი კერძები">
+                            </datalist>
+
+
+                            <h3>აირჩიეთ დასახელება</h3>
+                            <input class="custom-select" placeholder="დასახელება..." list="name" name="browser">
+                            <datalist id="name">
+                                <option value="ხაჭაპური">
+                                <option value="ხინკალი">
+                            </datalist>
+
+
+                            <button type="button" class="btn btn-outline-danger" onclick="">
+                                <i class="fas fa-search"></i>
+                            </button>
+
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="filter">
+                <form>
+                    <div class="row">
+                        <div class="col-xl col-lg-6">
+
+                            <h3>აირჩიეთ რეგიონი</h3>
+
+                            <input class="custom-select" placeholder="რეგიონი ან ქალაქი..." list="browsers"
+                                name="browser">
+                            <datalist id="browsers">
+                                <option value="იმერეთი">
+                                <option value="სამეგრელო">
+                            </datalist>
+                        </div>
+                        <div class="col-xl col-lg-6">
+                            <h3>აირჩიეთ კატეგორია</h3>
+                            <input class="custom-select" placeholder="კატეგორია..." list="categories" name="browser">
+                            <datalist id="categories">
+                                <option value="ცივი კერძები">
+                                <option value="ცხელი კერძები">
+                            </datalist>
+                        </div>
+                        <div class="col-xl col-lg-6">
+                            <h3>აირჩიეთ დასახელება</h3>
+                            <input class="custom-select" placeholder="დასახელება..." list="name" name="browser">
+                            <datalist id="name">
+                                <option value="ხაჭაპური">
+                                <option value="ხინკალი">
+                            </datalist>
+                        </div>
+                        <div class="col-xl col-lg-6">
+                            <button type="button" class="btn btn-outline-danger" onclick="">ძებნა
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+        </div>
+
+        <main>
+            <div class="row">
+                <div class="col-lg-2 col-md-12">
+                    <aside>
+                        <div class="row">
+                            <div class="hidden-aside">
+                                <div class="row">
+
+                                    <div class="col-12">
+                                        <h3>კატეგორიები</h3>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                        <button type="button" class="btn btn-danger"><a href="#">
+                                                <i class="fas fa-utensils categories-icons"></i>ცივი
+                                                კერძები</a></button>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                        <button type="button" class="btn btn-danger"><a href="#"><i
+                                                    class="fas fa-concierge-bell categories-icons"></i>ცხელი კერძები
+                                            </a></button>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                        <button type="button" class="btn btn-danger"><a href="#"><i
+                                                    class="fas fa-glass-cheers categories-icons"></i>სასმელები
+                                            </a></button>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="area">
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fas fa-utensils fa-2x fa"></i>
+
+                                                <span class="nav-text">ცივი კერძები</span></a></li>
+
+                                        <li><a href="#"><i class="fas fa-concierge-bell fa-2x fa "></i>
+                                                <span class="nav-text">ცხელი კერძები</span></a></li>
+
+
+                                        <li><a href="#"><i class="fas fa-glass-cheers fa-2x fa"></i>
+                                                <span class="nav-text">სასმელები</span></a></li>
+
+
+
+                                    </ul>
+
+                                </nav>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </aside>
+                </div>
+
+                <div class="col-lg-10 col-md-12">
+
+                    <section>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><a href="kerzi-konkretulad.html"><img
+                                                src="./assets/img/food/ბორანო.PNG" alt=""></a>
+                                    </div>
+                                    <div class="title-text">
+                                        <h3><a href="#">ბორანო</a></h3>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p>აჭარა</p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><img src="./assets/img/food/chakafuli.jpg" alt="">
+                                    </div>
+                                    <h3><a href="#"></a></h3>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p></p>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><img src="./assets/img/food/acharuli.png" alt="">
+                                    </div>
+                                </article>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><a href="#"><img src="./assets/img/food/xinkali2.jpg"
+                                                alt=""></a></div>
+                                    <h3><a href="#"></a></h3>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p></p>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><a href="#"><img src="./assets/img/food/xvanchkara.png"
+                                                alt=""></a>
+                                    </div>
+                                    <h3><a href="#"></a></h3>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p></p>
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><a href="#"><img src="./assets/img/food/sacivi.jpg"
+                                                alt=""></a></div>
+                                    <h3><a href="#"></a></h3>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p></p>
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <article>
+                                    <div class="image-container"><a href="#"><img src="./assets/img/food/lobiojpg.jpg"
+                                                alt=""></a></div>
+                                    <h3><a href="#"></a></h3>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p></p>
+                                </article>
+                            </div>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="clear-box"></div>
+                    </section>
+                </div>
+
+                <div class="clear-box"></div>
+        </main>
+
+
+
+
+
+
+
+        <div class="weather-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8 col-md-7"></div>
+                    <div class="col-xl-3 col-lg-4 col-md-5">
+                        <div class="weather">
+                            <a href="https://amindi.ge/">
+                                <p> ამინდი</p>
+                                <div class="weather-widget">
+                                    <!-- meteo.gov.ge --><iframe src='http://meteo.gov.ge/imeteo.php?v=1;2;21;1;0;0;1'
+                                        frameborder='0' scrolling='no' width='230' height='163' border='0'></iframe>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><a href="#"><img
+                                src="./assets/img/global/logo.png"></a> </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="row">
+                            <div class="col">
+                                <div class="social-cirkle"> <a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f social-icon"></i></a> </div>
+                            </div>
+                            <div class="col">
+                                <div class="social-cirkle"><a href="https://twitter.com/"><i
+                                            class="fab fa-twitter social-icon"></i></a> </div>
+                            </div>
+                            <div class="col">
+                                <div class="social-cirkle"><a href="https://www.instagram.com/"><i
+                                            class="fab fa-instagram social-icon"></i></a> </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-4 col-sm-3"></div>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="clear-box"></div>
+        </footer>
+
+        <script src="./lib//jquery/js/jquery-3.4.0.js"></script>
+        <script src="./lib/pooper/js/popper.min.js"></script>
+        <script src="./lib/bootstrap/js/bootstrap.js"></script>
+        <script src="./src/js/common/header.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                AboutGergia.Init();
+            });
+            $('.dropdown-toggle').dropdown();
+
+        </script>
+</body>
+
+</html>
